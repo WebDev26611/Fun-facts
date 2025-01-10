@@ -43,4 +43,5 @@ function nextFact() {
 
 window.onload = function() {
     nextFact();
+    document.getElementById("nextFactButton").onclick = nextFact; // Ensure the button's onclick is set properly
 };
