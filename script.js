@@ -33,7 +33,12 @@ let currentFactIndex = 0;
 
 function nextFact() {
     currentFactIndex = (currentFactIndex + 1) % facts.length;
-    document.getElementById("fact").textContent = facts[currentFactIndex];
+    const factElement = document.getElementById("fact");
+    factElement.style.opacity = 0; // Start fade-out
+    setTimeout(() => {
+        factElement.textContent = facts[currentFactIndex];
+        factElement.style.opacity = 1; // Start fade-in
+    }, 300);
 }
 
 window.onload = function() {
