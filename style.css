@@ -1,31 +1,51 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #3498db, #2ecc71);
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
   color: white;
   text-align: center;
-  margin-top: 50px;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: gradientShift 10s infinite alternate;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
 }
 
 @keyframes gradientShift {
   0% {
-    background: linear-gradient(135deg, #3498db, #2ecc71);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
   }
   100% {
-    background: linear-gradient(135deg, #2ecc71, #3498db);
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
   }
 }
 
+#backgroundPattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
+  opacity: 0.05;
+}
+
 .container {
+  position: relative;
   background: rgba(255, 255, 255, 0.2);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
   animation: fadeIn 2s;
+  transition: transform 0.3s;
+  z-index: 1;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 h1 {
@@ -37,16 +57,23 @@ button {
   padding: 15px 30px;
   font-size: 18px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #FFEB3B;
   border: none;
   border-radius: 10px;
-  color: white;
-  transition: background-color 0.3s, transform 0.3s;
+  color: #34495E;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 6px #888;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #F39C12;
   transform: scale(1.1);
+  box-shadow: 0 4px #666;
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px #444;
 }
 
 @keyframes fadeIn {
@@ -62,4 +89,5 @@ button:hover {
   font-size: 1.5em;
   margin-bottom: 20px;
   animation: fadeIn 1s;
+  color: #FFEB3B;
 }
