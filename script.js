@@ -23,12 +23,15 @@ function getFunFact() {
       "There are more stars in the universe than grains of sand on all the Earth's beaches.",
       "Koalas have fingerprints that are almost indistinguishable from human fingerprints.",
       "Humans share 60% of their DNA with bananas.",
-      "Wombat poop is cube-shaped.",
       "A group of crows is called a murder.",
       "Octopuses have copper-based blood, which gives it a blue color.",
       "The shortest commercial flight in the world lasts just 57 seconds.",
       "The first computer virus was created in 1983.",
-      "The hottest temperature ever recorded on Earth was 134°F (56.7°C) in Death Valley, California."
+      "The hottest temperature ever recorded on Earth was 134°F (56.7°C) in Death Valley, California.",
+      "A shrimp's heart is located in its head.",
+      "Dolphins sleep with one eye open",
+      "Polar bear fur is actually transparent and not white.",
+      "Banging your head on a wall for an hour straight burns 150 calories."
     ];
     const randomIndex = Math.floor(Math.random() * facts.length);
     const factElement = document.getElementById("fact");
