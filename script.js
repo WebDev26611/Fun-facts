@@ -45,10 +45,14 @@ function getFunFact() {
     "Click the button one more time and it'll go back to the start!"
   ];
 
+  const colors = [ "#00FF00", "#FFFF00", "#FFD700", "#FF6347", "#FFA500"
+  ];
+
   const factElement = document.getElementById("fact");
   factElement.style.opacity = 0; // Start fade-out
   setTimeout(() => {
     factElement.textContent = facts[n];
+    factElement.style.color = colors[Math.floor(Math.random() * colors.length)];
     factElement.style.opacity = 1; // Start fade-in
     n++;
     if (n >= facts.length) {
