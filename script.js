@@ -3,7 +3,7 @@ function getFunFact() {
       "Did you know that the population of the earth is about 8 billion people?",
       "The world's smallest mammal is the bumblebee bat, which is only about the size of a bumblebee.",
       "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis, which is a lung disease caused by inhaling very fine silica dust.",
-      "The Great Wall of China is visible from space.",
+      "The Great Wall of China is the only human-made structure visible from space.",
       "Bananas are berries, but strawberries are not.",
       "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible.",
       "An octopus has three hearts, nine brains, and blue blood.",
@@ -23,6 +23,7 @@ function getFunFact() {
       "There are more stars in the universe than grains of sand on all the Earth's beaches.",
       "Koalas have fingerprints that are almost indistinguishable from human fingerprints.",
       "Humans share 60% of their DNA with bananas.",
+      "Wombat poop is cube-shaped.",
       "A group of crows is called a murder.",
       "Octopuses have copper-based blood, which gives it a blue color.",
       "The shortest commercial flight in the world lasts just 57 seconds.",
@@ -36,8 +37,9 @@ function getFunFact() {
       factElement.textContent = facts[randomIndex];
       factElement.style.opacity = 1; // Start fade-in
     }, 300);
-}
-
-window.onload = function() {
+  }
+  
+  window.onload = function() {
     getFunFact();
-};
+  };
+  
