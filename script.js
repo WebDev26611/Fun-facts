@@ -42,4 +42,3 @@ function getFunFact() {
   window.onload = function() {
     getFunFact();
   };
-  
