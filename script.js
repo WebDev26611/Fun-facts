@@ -2,7 +2,6 @@ let n = 0;
 
 function getFunFact() {
   const facts = [
-    "Did you know that the population of the earth is about 8 billion people?",
     "The world's smallest mammal is the bumblebee bat, which is only about the size of a bumblebee.",
     "The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis, which is a lung disease caused by inhaling very fine silica dust.",
     "The Great Wall of China is the only human-made structure visible from space.",
@@ -30,10 +29,19 @@ function getFunFact() {
     "The shortest commercial flight in the world lasts just 57 seconds.",
     "The first computer virus was created in 1983.",
     "The hottest temperature ever recorded on Earth was 134°F (56.7°C) in Death Valley, California.",
+    "The fear of palindromes is called aibohphobia (but it's unofficial).",
     "A shrimp's heart is located in its head.",
     "Dolphins sleep with one eye open",
     "Polar bear fur is actually transparent and not white.",
     "Banging your head on a wall for an hour straight burns 150 calories.",
+    "The toothpaste you add on your tothbrush is called a nurdle.",
+    "Your brain is constantly eating itself.",
+    "Girrafes are 30 times more likely to get struck by lightning than humans.",
+    "A cloud weighs about one million tonnes.",
+    "If everyone on Earth gathered and jumped on one place, we would move the earth an eighth of a hydrogen atom.",
+    "Animals experience time differently than humans.",
+    "All the world's bacteria stacked upon eachother would be 10 billion light-years.",
+    "The fear of long words is called Hippopotomonstosequippedaliophobia.",
     "Click the button one more time and it'll go back to the start!"
   ];
 
