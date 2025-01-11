@@ -40,7 +40,8 @@ const facts = [
   "Animals experience time differently than humans.",
   "All the world's bacteria stacked upon each other would be 10 billion light-years.",
   "The fear of long words is called Hippopotomonstrosesquippedaliophobia.",
-  "Click the button one more time and it'll go back to the start!"
+  "Cats have fewer toes on their back paws.",
+  "Click the 'Next Fact' button one more time and it'll go back to the start!"
 ];
 
 const colors = ["#00FF00", "#FFFF00", "#FFD700", "#FF6347", "#FFA500"
