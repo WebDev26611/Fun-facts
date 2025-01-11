@@ -63,6 +63,7 @@ button {
   color: #34495E;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   box-shadow: 0 6px #888;
+  margin: 5px;
 }
 
 button:hover {
@@ -90,4 +91,8 @@ button:active {
   margin-bottom: 20px;
   animation: fadeIn 1s;
   color: #FFEB3B;
+}
+
+a {
+  text-decoration: none;
 }
