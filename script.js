@@ -44,8 +44,7 @@ const facts = [
   "Click the button one more time and it'll go back to the start!"
 ];
 
-const colors = [
-  "#FF0000", "#00FF00", "#FFFF00", "#FFD700", "#FF6347", "#FFA500"
+const colors = ["#00FF00", "#FFFF00", "#FFD700", "#FF6347", "#FFA500"
 ];
 
 function displayFact(index) {
