@@ -10,7 +10,6 @@ const facts = [
   "The shortest war in history lasted just 38 to 45 minutes. It was fought between Britain and Zanzibar on August 27, 1896.",
   "A leap year occurs every 4 years to help synchronize the calendar year with the solar year.",
   "The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion.",
-  "Cats have fewer toes on their back paws.",
   "The inventor of the Pringles can is now buried in one.",
   "A cow-bison hybrid is called a beefalo.",
   "Scotland's national animal is the unicorn.",
